@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Custom Priority Lookup" max_length="40" name="x_738708_custom_0_custom_priority_lookup" sizeclass="3" type="collection">
+        <element default="true" label="active" max_length="40" name="active" type="boolean"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Database" value="Database"/>
+                <element inactive_on_update="false" label="Inquiry" value="Inquiry"/>
+            </choice>
+        </element>
+        <element choice="1" label="Key words" max_length="40" name="key_words" type="choice">
+            <choice>
+                <element dependent_value="Internal App" inactive_on_update="false" label="app" value="app"/>
+                <element dependent_value="Internal App" inactive_on_update="false" label="internal" value="internal"/>
+                <element dependent_value="sql" inactive_on_update="false" label="sql" value="sql"/>
+            </choice>
+        </element>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="P1" value="1"/>
+                <element inactive_on_update="false" label="P2" value="2"/>
+                <element inactive_on_update="false" label="P3" value="3"/>
+                <element inactive_on_update="false" label="P4" value="4"/>
+            </choice>
+        </element>
+        <element label="Ranking" max_length="40" name="ranking" type="integer"/>
+        <element choice="1" label="Subcategory" max_length="40" name="subcategory" type="choice">
+            <choice>
+                <element dependent_value="Inquiry" inactive_on_update="false" label="Antivirus" value="Antivirus"/>
+                <element dependent_value="Inquiry" inactive_on_update="false" label="Internal App" value="Internal App"/>
+                <element dependent_value="Database" inactive_on_update="false" label="MySql" value="MySql"/>
+                <element dependent_value="Database" inactive_on_update="false" label="sql" value="sql"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_738708_custom_0_test_custom" label="test Custom Child" max_length="40" name="x_738708_custom_0_test_custom_child" sizeclass="11" type="collection">
+        <element label="transferred from parent" max_length="40" name="transferred_from_parent" read_only="true" type="boolean"/>
+    </element>
+</database>

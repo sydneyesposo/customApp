@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" extends="task" label="test Custom" max_length="40" name="x_738708_custom_0_test_custom" sizeclass="113" type="collection">
+        <element dependent="company" dependent_on_field="company" label="Caller" max_length="32" name="caller_custom" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element choice="1" choice_field="category" choice_table="x_738708_custom_0_custom_priority_lookup" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Database" sequence="0" value="Database"/>
+                <element inactive_on_update="false" label="Inquiry" sequence="1" value="Inquiry"/>
+            </choice>
+        </element>
+        <element label="Email content" max_length="65536" name="email_content" type="html"/>
+        <element choice="1" choice_field="key_words" choice_table="x_738708_custom_0_custom_priority_lookup" label="Keyword" max_length="40" name="keyword" type="string">
+            <choice>
+                <element inactive_on_update="false" label="app" sequence="0" value="app"/>
+                <element inactive_on_update="false" label="internal" sequence="1" value="internal"/>
+                <element inactive_on_update="false" label="sql" sequence="2" value="sql"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="new" max_length="40" name="new" type="string" use_dependent_field="true"/>
+        <element choice="3" choice_field="subcategory" choice_table="x_738708_custom_0_custom_priority_lookup" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="Test Child" max_length="32" name="test_child" reference="x_738708_custom_0_test_custom_child" type="reference"/>
+        <element label="transferred from child" max_length="40" name="transferred_from_child" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Email_Content" max_length="40" name="u_email_content" type="string"/>
+    </element>
+</database>

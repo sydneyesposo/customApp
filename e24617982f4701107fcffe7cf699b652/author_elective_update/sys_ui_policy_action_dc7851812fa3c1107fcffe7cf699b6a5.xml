@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>subcategory</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-17 04:23:20</sys_created_on>
+        <sys_id>dc7851812fa3c1107fcffe7cf699b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subcategory</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_ui_policy_action_dc7851812fa3c1107fcffe7cf699b6a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-17 04:23:20</sys_updated_on>
+        <table>x_738708_custom_0_test_custom</table>
+        <ui_policy display_value="Show other fields for Category">1be719412fa3c1107fcffe7cf699b629</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom App">e24617982f4701107fcffe7cf699b652</application>
+        <file_path/>
+        <instance_id>33715716dbd83b0049eac597059619e8</instance_id>
+        <instance_name>dev76583</instance_name>
+        <name>sys_ui_policy_action_dc7851812fa3c1107fcffe7cf699b6a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>subcategory</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-17 04:23:20</sys_created_on><sys_id>dc7851812fa3c1107fcffe7cf699b6a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>subcategory</sys_name><sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package><sys_policy/><sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope><sys_update_name>sys_ui_policy_action_dc7851812fa3c1107fcffe7cf699b6a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-17 04:23:20</sys_updated_on><table>x_738708_custom_0_test_custom</table><ui_policy display_value="Show other fields for Category">1be719412fa3c1107fcffe7cf699b629</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1384741990</payload_hash>
+        <record_name>subcategory</record_name>
+        <reverted_from/>
+        <source>15871bd82f4701107fcffe7cf699b6fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-17 04:23:20</sys_created_on>
+        <sys_id>727891812fa3c1107fcffe7cf699b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180d04194d70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-17 04:23:20</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ba78918136a3c1107c20f3ce73257088</update_guid>
+        <update_guid_history>ba78918136a3c1107c20f3ce73257088:-1384741990</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-17 07:22:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>03a40f29d8c4433cacfeca9b53c6a0e4</sys_id>
+        <sys_metadata>dc7851812fa3c1107fcffe7cf699b6a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subcategory</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_parent display_value="Show other fields for Category">1be719412fa3c1107fcffe7cf699b629</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_scope_delete display_value="">5562d3ecb2f249ceb67b8ab310a390e9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_dc7851812fa3c1107fcffe7cf699b6a5</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_dc7851812fa3c1107fcffe7cf699b6a5">727891812fa3c1107fcffe7cf699b689</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-17 07:22:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_mat">
+    <catalog_dl_definition_rel_mat action="DELETE">
+        <applies_to>item</applies_to>
+        <catalog_item display_value="Apple iPhone 5">0d08837237153000158bbfc8bcbe5d02</catalog_item>
+        <dl_definition display_value="test Catalog">87db06ea2f4301107fcffe7cf699b66c</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_738708_custom_0_x_738708_0_x_738708_custom_child</matcher_table>
+        <matcher_table_field>group</matcher_table_field>
+        <source_catalog_variable>IO:c04735ff3771300054b6a3549dbe5d88</source_catalog_variable>
+        <source_table/>
+        <source_table_field/>
+        <source_variable>carrier</source_variable>
+        <sys_class_name>catalog_dl_definition_rel_mat</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 03:28:25</sys_created_on>
+        <sys_id>3b0c0aea2f4301107fcffe7cf699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IO:c04735ff3771300054b6a3549dbe5d88</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>catalog_dl_definition_rel_mat_3b0c0aea2f4301107fcffe7cf699b634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 03:28:25</sys_updated_on>
+        <variable_set/>
+    </catalog_dl_definition_rel_mat>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom App">e24617982f4701107fcffe7cf699b652</application>
+        <file_path/>
+        <instance_id>33715716dbd83b0049eac597059619e8</instance_id>
+        <instance_name>dev76583</instance_name>
+        <name>catalog_dl_definition_rel_mat_3b0c0aea2f4301107fcffe7cf699b634</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_mat"><catalog_dl_definition_rel_mat action="INSERT_OR_UPDATE"><applies_to>item</applies_to><catalog_item display_value="Apple iPhone 5">0d08837237153000158bbfc8bcbe5d02</catalog_item><dl_definition display_value="test Catalog">87db06ea2f4301107fcffe7cf699b66c</dl_definition><exact_match>false</exact_match><matcher_table>x_738708_custom_0_x_738708_0_x_738708_custom_child</matcher_table><matcher_table_field>group</matcher_table_field><source_catalog_variable>IO:c04735ff3771300054b6a3549dbe5d88</source_catalog_variable><source_table/><source_table_field/><source_variable>carrier</source_variable><sys_class_name>catalog_dl_definition_rel_mat</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-27 03:28:25</sys_created_on><sys_id>3b0c0aea2f4301107fcffe7cf699b634</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IO:c04735ff3771300054b6a3549dbe5d88</sys_name><sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package><sys_policy/><sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope><sys_update_name>catalog_dl_definition_rel_mat_3b0c0aea2f4301107fcffe7cf699b634</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-27 03:28:25</sys_updated_on><variable_set/></catalog_dl_definition_rel_mat></record_update>]]></payload>
+        <payload_hash>-689417163</payload_hash>
+        <record_name>IO:c04735ff3771300054b6a3549dbe5d88</record_name>
+        <reverted_from/>
+        <source>15871bd82f4701107fcffe7cf699b6fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 03:28:25</sys_created_on>
+        <sys_id>6f1c06ea2f4301107fcffe7cf699b681</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18069101e4d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 03:28:25</sys_updated_on>
+        <type>Catalog Matcher Variable Definitions</type>
+        <update_guid>a71c06ea73430110261c81d915c5cc81</update_guid>
+        <update_guid_history>a71c06ea73430110261c81d915c5cc81:-689417163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="IO:c04735ff3771300054b6a3549dbe5d88">2e6c8eea2f4301107fcffe7cf699b64e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 03:29:43</sys_created_on>
+        <sys_db_object display_value="" name="catalog_dl_definition_rel_mat">catalog_dl_definition_rel_mat</sys_db_object>
+        <sys_id>82d87b44efb74b949aa46a2246983a29</sys_id>
+        <sys_metadata>3b0c0aea2f4301107fcffe7cf699b634</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IO:c04735ff3771300054b6a3549dbe5d88</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_scope_delete display_value="">5562d3ecb2f249ceb67b8ab310a390e9</sys_scope_delete>
+        <sys_update_name>catalog_dl_definition_rel_mat_3b0c0aea2f4301107fcffe7cf699b634</sys_update_name>
+        <sys_update_version display_value="catalog_dl_definition_rel_mat_3b0c0aea2f4301107fcffe7cf699b634">6f1c06ea2f4301107fcffe7cf699b681</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 03:29:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

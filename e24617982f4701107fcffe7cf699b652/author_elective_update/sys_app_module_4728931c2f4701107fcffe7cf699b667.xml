@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Custom Table">b628931c2f4701107fcffe7cf699b664</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Custom Tables</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_738708_custom_0_x_738708_custom_table</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_738708_custom_0.custom_table_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-20 09:14:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4728931c2f4701107fcffe7cf699b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Tables</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_app_module_4728931c2f4701107fcffe7cf699b667</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-20 09:14:23</sys_updated_on>
+        <timeline_page/>
+        <title>Custom Tables</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom App">e24617982f4701107fcffe7cf699b652</application>
+        <file_path/>
+        <instance_id>33715716dbd83b0049eac597059619e8</instance_id>
+        <instance_name>dev76583</instance_name>
+        <name>sys_app_module_4728931c2f4701107fcffe7cf699b667</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Custom Table">b628931c2f4701107fcffe7cf699b664</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Custom Tables</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_738708_custom_0_x_738708_custom_table</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_738708_custom_0.custom_table_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-20 09:14:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4728931c2f4701107fcffe7cf699b667</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Custom Tables</sys_name><sys_overrides/><sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package><sys_policy/><sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope><sys_update_name>sys_app_module_4728931c2f4701107fcffe7cf699b667</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-20 09:14:23</sys_updated_on><timeline_page/><title>Custom Tables</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>259723768</payload_hash>
+        <record_name>Custom Tables</record_name>
+        <reverted_from/>
+        <source>15871bd82f4701107fcffe7cf699b6fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-20 09:14:23</sys_created_on>
+        <sys_id>8b28931c2f4701107fcffe7cf699b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1804640578c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-20 09:14:23</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c328931cb84701103829c5573263c669</update_guid>
+        <update_guid_history>c328931cb84701103829c5573263c669:259723768</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Custom Tables">490b53dc2f4701107fcffe7cf699b623</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-20 09:26:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0be8a124a62b4cca8a5e88cc1ec5cae4</sys_id>
+        <sys_metadata>4728931c2f4701107fcffe7cf699b667</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Tables</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_scope_delete display_value="">5562d3ecb2f249ceb67b8ab310a390e9</sys_scope_delete>
+        <sys_update_name>sys_app_module_4728931c2f4701107fcffe7cf699b667</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4728931c2f4701107fcffe7cf699b667">8b28931c2f4701107fcffe7cf699b669</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-20 09:26:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

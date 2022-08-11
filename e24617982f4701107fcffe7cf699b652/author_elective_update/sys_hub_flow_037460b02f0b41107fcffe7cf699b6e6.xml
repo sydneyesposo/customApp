@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>test</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 09:26:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>037460b02f0b41107fcffe7cf699b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_hub_flow_037460b02f0b41107fcffe7cf699b6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 09:26:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=037460b02f0b41107fcffe7cf699b6e6"/>
+    <sys_variable_value action="DELETE" query="document_key=037460b02f0b41107fcffe7cf699b6e6"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=037460b02f0b41107fcffe7cf699b6e6^sys_idNOT IN077460b02f0b41107fcffe7cf699b6e7"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>037460b02f0b41107fcffe7cf699b6e6</id>
+        <name>test</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 09:26:17</sys_created_on>
+        <sys_id>077460b02f0b41107fcffe7cf699b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 09:26:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom App">e24617982f4701107fcffe7cf699b652</application>
+        <file_path/>
+        <instance_id>33715716dbd83b0049eac597059619e8</instance_id>
+        <instance_name>dev76583</instance_name>
+        <name>sys_hub_flow_037460b02f0b41107fcffe7cf699b6e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>test</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>test</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-21 09:26:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>037460b02f0b41107fcffe7cf699b6e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_overrides/><sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package><sys_policy/><sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope><sys_update_name>sys_hub_flow_037460b02f0b41107fcffe7cf699b6e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-21 09:26:17</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=037460b02f0b41107fcffe7cf699b6e6"/><sys_variable_value action="delete_multiple" query="document_key=037460b02f0b41107fcffe7cf699b6e6"/><sys_flow_cat_variable_model action="delete_multiple" query="id=037460b02f0b41107fcffe7cf699b6e6^sys_idNOT IN077460b02f0b41107fcffe7cf699b6e7"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>037460b02f0b41107fcffe7cf699b6e6</id><name>test</name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-21 09:26:17</sys_created_on><sys_id>077460b02f0b41107fcffe7cf699b6e7</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-21 09:26:17</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>1173946562</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>15871bd82f4701107fcffe7cf699b6fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 09:26:17</sys_created_on>
+        <sys_id>037460b02f0b41107fcffe7cf699b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1804b7199d70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 09:26:17</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>4b7460b0c60b41101ea4ca34e1325ceb</update_guid>
+        <update_guid_history>4b7460b0c60b41101ea4ca34e1325ceb:1173946562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 09:27:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>4a8a0d70f6fb4896aa48ec286e59fe84</sys_id>
+        <sys_metadata>037460b02f0b41107fcffe7cf699b6e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_scope_delete display_value="">5562d3ecb2f249ceb67b8ab310a390e9</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_037460b02f0b41107fcffe7cf699b6e6</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_037460b02f0b41107fcffe7cf699b6e6">037460b02f0b41107fcffe7cf699b6ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 09:27:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

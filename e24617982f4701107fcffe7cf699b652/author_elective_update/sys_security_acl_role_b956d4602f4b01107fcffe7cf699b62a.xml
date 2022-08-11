@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-20 13:47:27</sys_created_on>
+        <sys_id>b956d4602f4b01107fcffe7cf699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.itil</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_security_acl display_value="">cc56dca02f4b01107fcffe7cf699b6e8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b956d4602f4b01107fcffe7cf699b62a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-20 13:47:27</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom App">e24617982f4701107fcffe7cf699b652</application>
+        <file_path/>
+        <instance_id>33715716dbd83b0049eac597059619e8</instance_id>
+        <instance_name>dev76583</instance_name>
+        <name>sys_security_acl_role_b956d4602f4b01107fcffe7cf699b62a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-20 13:47:27</sys_created_on><sys_id>b956d4602f4b01107fcffe7cf699b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.itil</sys_name><sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package><sys_policy/><sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope><sys_security_acl display_value="">cc56dca02f4b01107fcffe7cf699b6e8</sys_security_acl><sys_update_name>sys_security_acl_role_b956d4602f4b01107fcffe7cf699b62a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-20 13:47:27</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-764355073</payload_hash>
+        <record_name>.itil</record_name>
+        <reverted_from/>
+        <source>15871bd82f4701107fcffe7cf699b6fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-20 13:47:27</sys_created_on>
+        <sys_id>cba654e02f4b01107fcffe7cf699b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180473a56ed0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-20 13:47:27</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>07a654e0e24b011045fd3acc3d5c0135</update_guid>
+        <update_guid_history>07a654e0e24b011045fd3acc3d5c0135:-764355073</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".itil">b0471ce02f4b01107fcffe7cf699b6dd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-20 13:50:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>6b2043ec63fd45f698e9b953c9b5b891</sys_id>
+        <sys_metadata>b956d4602f4b01107fcffe7cf699b62a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.itil</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_parent display_value="x_738708_custom_0_x_738708_0_x_738708_custom_child.title">cc56dca02f4b01107fcffe7cf699b6e8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_scope_delete display_value="">5562d3ecb2f249ceb67b8ab310a390e9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_b956d4602f4b01107fcffe7cf699b62a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_b956d4602f4b01107fcffe7cf699b62a">cba654e02f4b01107fcffe7cf699b635</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-20 13:50:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

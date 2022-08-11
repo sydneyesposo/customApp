@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="DELETE">
+        <name>test</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+    var newUsers = event.parm2;
+   var userDelta = new GlideRecord("sn_publications_publication_contact_m2m");
+   userDelta.addQuery("publication",current.getUniqueValue());
+   
+         var qc = userDelta.addQuery("user.sys_id","IN",newUsers);
+   qc.addOrCondition("consumer.sys_id","IN",newUsers);
+         //userDelta.addQuery("user.sys_id","IN",newUsers);
+   userDelta.query();
+   while(userDelta.next()){
+         email.addAddress("bcc",userDelta.getValue('email_address'),userDelta.getValue('name'));
+   }
+
+})(current, template, email, email_action, event);
+
+(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+ template.print(event.parm2);
+
+})(current, template, email, email_action, event);
+
+(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+             /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+             /* Optional GlideRecord */ event) {
+
+ // Add your code here
+ if(event.user_id=='system'){
+   var user = new GlideRecord("sn_publications_publication_contact_m2m");
+   user.addQuery("publication",current.getUniqueValue());
+   user.query();
+   while(user.next()){
+    email.addAddress("bcc",user.getValue('email_address'),user.getValue('name'));
+   }
+ }
+ 
+})(current, template, email, email_action, event);
+
+(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+ if (!current.watch_list.nil()) {
+   //get watch list addresses and add to bcc
+ var watcherIds = current.watch_list.split(",");
+   //get user records
+   var user = new GlideRecord("sys_user");
+   user.addQuery("sys_id", "IN", watcherIds);
+   user.addQuery("email", "!=", "");
+   user.query();
+
+   while (user.next()) {
+      //add to cc list    
+      email.addAddress("bcc", user.getValue('email'), user.getDisplayValue());
+   }
+}
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-29 02:27:49</sys_created_on>
+        <sys_id>d9b050572f0741107fcffe7cf699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_script_email_d9b050572f0741107fcffe7cf699b653</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-29 02:27:49</sys_updated_on>
+    </sys_script_email>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom App">e24617982f4701107fcffe7cf699b652</application>
+        <file_path/>
+        <instance_id>33715716dbd83b0049eac597059619e8</instance_id>
+        <instance_name>dev76583</instance_name>
+        <name>sys_script_email_d9b050572f0741107fcffe7cf699b653</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;test&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+    var newUsers = event.parm2;
+   var userDelta = new GlideRecord("sn_publications_publication_contact_m2m");
+   userDelta.addQuery("publication",current.getUniqueValue());
+   
+         var qc = userDelta.addQuery("user.sys_id","IN",newUsers);
+   qc.addOrCondition("consumer.sys_id","IN",newUsers);
+         //userDelta.addQuery("user.sys_id","IN",newUsers);
+   userDelta.query();
+   while(userDelta.next()){
+         email.addAddress("bcc",userDelta.getValue('email_address'),userDelta.getValue('name'));
+   }
+
+})(current, template, email, email_action, event);
+
+(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+ template.print(event.parm2);
+
+})(current, template, email, email_action, event);
+
+(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+             /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+             /* Optional GlideRecord */ event) {
+
+ // Add your code here
+ if(event.user_id=='system'){
+   var user = new GlideRecord("sn_publications_publication_contact_m2m");
+   user.addQuery("publication",current.getUniqueValue());
+   user.query();
+   while(user.next()){
+    email.addAddress("bcc",user.getValue('email_address'),user.getValue('name'));
+   }
+ }
+ 
+})(current, template, email, email_action, event);
+
+(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+ if (!current.watch_list.nil()) {
+   //get watch list addresses and add to bcc
+ var watcherIds = current.watch_list.split(",");
+   //get user records
+   var user = new GlideRecord("sys_user");
+   user.addQuery("sys_id", "IN", watcherIds);
+   user.addQuery("email", "!=", "");
+   user.query();
+
+   while (user.next()) {
+      //add to cc list    
+      email.addAddress("bcc", user.getValue('email'), user.getDisplayValue());
+   }
+}
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-29 02:27:49&lt;/sys_created_on&gt;&lt;sys_id&gt;d9b050572f0741107fcffe7cf699b653&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;test&lt;/sys_name&gt;&lt;sys_package display_value="Custom App" source="x_738708_custom_0"&gt;e24617982f4701107fcffe7cf699b652&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Custom App"&gt;e24617982f4701107fcffe7cf699b652&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_d9b050572f0741107fcffe7cf699b653&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-29 02:27:49&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-66900729</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>15871bd82f4701107fcffe7cf699b6fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-29 02:27:49</sys_created_on>
+        <sys_id>4b61d4d72f0741107fcffe7cf699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1807325598a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-29 02:27:49</sys_updated_on>
+        <type>Email Script</type>
+        <update_guid>8361d4d748074110cd4813aeaa25b990</update_guid>
+        <update_guid_history>8361d4d748074110cd4813aeaa25b990:-66900729</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-29 02:28:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_email">sys_script_email</sys_db_object>
+        <sys_id>27a3b4c798fc40ba9fcb784821036544</sys_id>
+        <sys_metadata>d9b050572f0741107fcffe7cf699b653</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_scope_delete display_value="">5562d3ecb2f249ceb67b8ab310a390e9</sys_scope_delete>
+        <sys_update_name>sys_script_email_d9b050572f0741107fcffe7cf699b653</sys_update_name>
+        <sys_update_version display_value="sys_script_email_d9b050572f0741107fcffe7cf699b653">4b61d4d72f0741107fcffe7cf699b690</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-29 02:28:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

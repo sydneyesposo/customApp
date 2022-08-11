@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_738708_custom_0_custom_table" label="Custom App child" max_length="40" name="x_738708_custom_0_x_738708_0_x_738708_custom_child" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="4000" name="cust_work_notes" type="journal"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_1" type="journal"/>
+    </element>
+</database>
