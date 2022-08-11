@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-08-11 01:52:14">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 07:48:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1164b00e2f0701107fcffe7cf699b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA test - New Tab 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_portal_page_1164b00e2f0701107fcffe7cf699b6af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 07:48:12</sys_updated_on>
+        <title>PA test - New Tab 2</title>
+        <user/>
+        <view>pa_test_-_new_tab_2</view>
+    </sys_portal_page>
+</record_update>

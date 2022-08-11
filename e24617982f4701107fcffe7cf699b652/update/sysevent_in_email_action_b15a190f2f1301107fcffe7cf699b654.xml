@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>update test custom</name>
+        <order>100</order>
+        <reply_email><![CDATA[<p>gs.include(&#39;validators&#39;);</p>
+<p>if (current.getTableName() &#61;&#61; &#34;test Custom&#34;) {<br /> current.work_notes &#61; &#34;reply from: &#34; &#43; email.origemail &#43; &#34;\n\n&#34; &#43; email.body_text;<br /> <br /> if (gs.hasRole(&#34;itil&#34;)) {<br />  if (email.body.assign !&#61; undefined)<br />   current.assigned_to &#61; email.body.assign;<br />  <br />  if (email.body.priority !&#61; undefined &amp;&amp; isNumeric(email.body.priority))<br />   current.priority &#61; email.body.priority;<br /> }<br /> <br /> current.update();<br />}</p>]]></reply_email>
+        <required_roles/>
+        <script><![CDATA[gs.include('validators');
+
+if (current.getTableName() == "test Custom") {
+	current.work_notes = "reply from: " + email.origemail + "\n\n" + email.body_text;
+	
+	if (gs.hasRole("itil")) {
+		if (email.body.assign != undefined)
+			current.assigned_to = email.body.assign;
+		
+		if (email.body.priority != undefined && isNumeric(email.body.priority))
+			current.priority = email.body.priority;
+	}
+	
+	current.update();
+}]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-11 01:02:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b15a190f2f1301107fcffe7cf699b654</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>update test custom</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sysevent_in_email_action_b15a190f2f1301107fcffe7cf699b654</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-11 01:14:12</sys_updated_on>
+        <table>x_738708_custom_0_test_custom</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

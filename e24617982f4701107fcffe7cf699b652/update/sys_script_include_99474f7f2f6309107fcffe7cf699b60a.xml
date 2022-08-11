@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_738708_custom_0.testCustomGroup</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>testCustomGroup</name>
+        <script><![CDATA[function testCustomGroup() {
+	
+	var answer = '';
+	var groups = new GlideRecord('sys_user_group');
+	
+	groups.addQuery('type', '93c4cbbb2f6309107fcffe7cf699b69f'); //Payroll group type
+	//groups.addQuery('name', '!=', "Payroll Seniors");
+	
+	groups.query();
+	while (groups.next()){
+		//add the sys_id of the group to the search string
+		if (answer.length > 1) {
+			answer += "^ORsys_id="+groups.sys_id;
+		}
+		else {
+			answer += "sys_id="+groups.sys_id;
+		}
+	}
+	return answer;
+
+		
+}
+	var role = new GlideRecord('sys_user_role');
+	role.addQuery('x_738708_custom_0.custom senior');
+	role.query();
+	if (role.next()) {
+		
+	}
+// if(count == 0){
+            
+//             var upd = new GlideRecord('u_sc_dashboard_stats');
+//                 upd.addQuery('u_company',company_sysids[i]);
+//                 upd.query();
+//                 if (upd.next()) {
+//                     upd.u_billable_tickets_closed_mtd = count;
+//                     upd.update();
+//                   gs.addInfoMessage(company_sysids[i] + ' : ' + count);
+	
+// 		if (gs.hasRole('x_dajl_payroll.payroll.general'))
+// 			return 'sys_user_group=a399058987ab8d10ec56a9f40cbb35db';
+
+    ]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-26 01:35:19</sys_created_on>
+        <sys_id>99474f7f2f6309107fcffe7cf699b60a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>testCustomGroup</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_script_include_99474f7f2f6309107fcffe7cf699b60a</sys_update_name>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-05-26 07:25:52</sys_updated_on>
+    </sys_script_include>
+</record_update>

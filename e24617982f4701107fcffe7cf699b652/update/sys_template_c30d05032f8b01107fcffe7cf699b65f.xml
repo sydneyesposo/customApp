@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>testTemplate</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-28 12:11:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c30d05032f8b01107fcffe7cf699b65f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>testTemplate</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_template_c30d05032f8b01107fcffe7cf699b65f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-28 12:12:17</sys_updated_on>
+        <table>x_738708_custom_0_test_custom</table>
+        <template>active=true^impact=2^priority=3^short_description=For Test Purpose Only^urgency=2^cmdb_ci=26e426be0a0a0bb40046890d90059eaa^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+</record_update>

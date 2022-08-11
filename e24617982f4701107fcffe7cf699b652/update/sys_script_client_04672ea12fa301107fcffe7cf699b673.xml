@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>subcategory</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>custom Priority Lookup</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+
+	var ga = new GlideAjax('customPriorityLookup');
+	ga.addParam('sysparm_name', 'customPriorityLookup');
+	ga.addParam('sysparm_name_category', g_form.getValue('category'));
+	ga.addParam('sysparm_subcategory', g_form.getValue('subcategory'));
+	ga.getXML(getPriority);
+	//ga.getXMLAnswer(getPriority);
+
+	
+	function getPriority(response) {
+		var number = response.responseXML.documentElement.getAttribute("answer");
+		//var number = response;
+		
+		if (number == 1 || number == 2 || number == 3 || number == 4)
+		g_form.setValue('priority', number);
+		//alert(number);
+		
+		
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 23:26:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04672ea12fa301107fcffe7cf699b673</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>custom Priority Lookup</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_script_client_04672ea12fa301107fcffe7cf699b673</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 03:24:07</sys_updated_on>
+        <table>x_738708_custom_0_test_custom</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

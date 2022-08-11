@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8960c8512f5741107fcffe7cf699b6e5" sys_domain="global" table="x_738708_custom_0_test_custom" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-05 06:21:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1600c512f5741107fcffe7cf699b665</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_738708_custom_0_test_custom" name="x_738708_custom_0_test_custom" sys_domain="global" view="Default view">8960c8512f5741107fcffe7cf699b6e5</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom" sys_domain="global" view="Default view">385347362f8301107fcffe7cf699b6dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-05 06:21:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-05 06:21:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd600c512f5741107fcffe7cf699b665</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_738708_custom_0_test_custom" name="x_738708_custom_0_test_custom" sys_domain="global" view="Default view">8960c8512f5741107fcffe7cf699b6e5</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_738708_custom_0_test_custom" sys_domain="global" view="Default view">4d60c8512f5741107fcffe7cf699b6e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-05 06:21:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_738708_custom_0_test_custom</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-05 06:21:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8960c8512f5741107fcffe7cf699b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_738708_custom_0_test_custom</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8960c8512f5741107fcffe7cf699b6e5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-05 06:21:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

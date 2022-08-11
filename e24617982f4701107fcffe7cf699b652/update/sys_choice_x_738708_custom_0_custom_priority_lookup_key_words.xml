@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="key_words" table="x_738708_custom_0_custom_priority_lookup" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>key_words</element>
+            <name>x_738708_custom_0_custom_priority_lookup</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 02:35:04</sys_created_on>
+            <sys_id>c5d20dd72faf45107fcffe7cf699b658</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>key_words</sys_name>
+            <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+            <sys_update_name>sys_choice_x_738708_custom_0_custom_priority_lookup_key_words</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 02:35:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Internal App</dependent_value>
+            <element>key_words</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>app</label>
+            <language>en</language>
+            <name>x_738708_custom_0_custom_priority_lookup</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 02:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0294055b2faf45107fcffe7cf699b62b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 02:42:47</sys_updated_on>
+            <value>app</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Internal App</dependent_value>
+            <element>key_words</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>internal</label>
+            <language>en</language>
+            <name>x_738708_custom_0_custom_priority_lookup</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 02:42:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a584459b2faf45107fcffe7cf699b69b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 02:42:39</sys_updated_on>
+            <value>internal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>sql</dependent_value>
+            <element>key_words</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>sql</label>
+            <language>en</language>
+            <name>x_738708_custom_0_custom_priority_lookup</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 02:36:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e81309932faf45107fcffe7cf699b68c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-05-27 01:46:58</sys_updated_on>
+            <value>sql</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

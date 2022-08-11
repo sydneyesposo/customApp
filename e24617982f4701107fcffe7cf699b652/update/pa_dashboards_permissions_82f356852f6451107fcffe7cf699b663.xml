@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Knowledge Management">18b945e7d7d30200b96d45a3ce610354</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>pa_contributor</identity>
+        <read>true</read>
+        <role display_value="pa_contributor" name="pa_contributor">aeec30b3bf101100b96dac808c073943</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-07-06 01:46:02</sys_created_on>
+        <sys_id>82f356852f6451107fcffe7cf699b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_contributor</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_82f356852f6451107fcffe7cf699b663</sys_update_name>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-07-06 01:46:02</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

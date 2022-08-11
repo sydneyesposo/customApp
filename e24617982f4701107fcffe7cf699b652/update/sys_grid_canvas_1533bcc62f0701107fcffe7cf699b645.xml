@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA test - New Tab">1933bcc62f0701107fcffe7cf699b643</legacy_page>
+        <name>PA test - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 07:43:02</sys_created_on>
+        <sys_id>1533bcc62f0701107fcffe7cf699b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA test - New Tab</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_grid_canvas_1533bcc62f0701107fcffe7cf699b645</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 07:43:02</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

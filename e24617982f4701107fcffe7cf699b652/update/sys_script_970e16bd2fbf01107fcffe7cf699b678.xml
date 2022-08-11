@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_738708_custom_0_test_custom</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>test Custom Child Related Record</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+	var incident = current.test_child.ticket; //replace 'ticket' with name of your ticket reference field
+	var incidentGr = new GlideRecord('x_738708_custom_0_test_custom');
+	incidentGr.get(incident);
+	if(incidentGr){
+		incidentGr.work_notes= ''+current.number;
+		incidentGr.update();
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-06-01 03:44:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>970e16bd2fbf01107fcffe7cf699b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test Custom Child Related Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_script_970e16bd2fbf01107fcffe7cf699b678</sys_update_name>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-06-01 03:44:36</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=970e16bd2fbf01107fcffe7cf699b678"/>
+</record_update>

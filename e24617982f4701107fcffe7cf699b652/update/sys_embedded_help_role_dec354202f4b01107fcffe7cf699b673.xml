@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_738708_custom_0.custom_app_child_user" name="x_738708_custom_0.custom_app_child_user">d2c354ec2f4701107fcffe7cf699b694</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-04-20 13:34:50</sys_created_on>
+        <sys_id>dec354202f4b01107fcffe7cf699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d2c354ec2f4701107fcffe7cf699b694</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_embedded_help_role_dec354202f4b01107fcffe7cf699b673</sys_update_name>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-04-20 13:34:50</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

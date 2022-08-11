@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>test_custom_action</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>test Custom Action</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-05-26 09:16:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c402f08c2ff709107fcffe7cf699b66d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test Custom Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c402f08c2ff709107fcffe7cf699b66d</sys_update_name>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:20:16</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c402f08c2ff709107fcffe7cf699b66d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c402f08c2ff709107fcffe7cf699b66d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=c402f08c2ff709107fcffe7cf699b66d^sys_idNOT IN40c23c8c2ff709107fcffe7cf699b65d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test Custom Action">c402f08c2ff709107fcffe7cf699b66d</action>
+        <cid>d778397e-5d70-419c-9e30-64e7e54bb389</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create Record step 1</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-05-26 09:20:15</sys_created_on>
+        <sys_id>40c23c8c2ff709107fcffe7cf699b65d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:20:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=40c23c8c2ff709107fcffe7cf699b65d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40c23c8c2ff709107fcffe7cf699b65d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-05-26 09:20:16</sys_created_on>
+        <sys_id>04c270cc2ff709107fcffe7cf699b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:20:16</sys_updated_on>
+        <value>x_738708_custom_0_test_custom</value>
+        <variable display_value="Table">f0fb68f267003200553fafb49585efa0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40c23c8c2ff709107fcffe7cf699b65d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-05-26 09:20:16</sys_created_on>
+        <sys_id>4cc270cc2ff709107fcffe7cf699b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:20:16</sys_updated_on>
+        <value>category=Hardware^subcategory=CPU</value>
+        <variable display_value="Field Values">e78d203667003200553fafb49585ef63</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69^id=40c23c8c2ff709107fcffe7cf699b65d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=40c23c8c2ff709107fcffe7cf699b65d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=40c23c8c2ff709107fcffe7cf699b65d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=40c23c8c2ff709107fcffe7cf699b65d^sys_idNOT IN0cc270cc2ff709107fcffe7cf699b663"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>create_record_field_values</input_name>
+        <instance>40c23c8c2ff709107fcffe7cf699b65d</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"category":{"scriptActive":false,"savedValue":""}}</script>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-05-26 09:20:16</sys_created_on>
+        <sys_id>0cc270cc2ff709107fcffe7cf699b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:20:16</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_40c23c8c2ff709107fcffe7cf699b65d"/>
+    <sys_hub_action_input action="delete_multiple" query="model=c402f08c2ff709107fcffe7cf699b66d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=c402f08c2ff709107fcffe7cf699b66d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c402f08c2ff709107fcffe7cf699b66d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=c402f08c2ff709107fcffe7cf699b66d^sys_idNOT IN08c270cc2ff709107fcffe7cf699b669"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="test Custom Action">c402f08c2ff709107fcffe7cf699b66d</action_type_id>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-05-26 09:20:16</sys_created_on>
+        <sys_id>08c270cc2ff709107fcffe7cf699b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:20:16</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=08c270cc2ff709107fcffe7cf699b669"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c402f08c2ff709107fcffe7cf699b66d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c402f08c2ff709107fcffe7cf699b66d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c402f08c2ff709107fcffe7cf699b66d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_c402f08c2ff709107fcffe7cf699b66d"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=c402f08c2ff709107fcffe7cf699b66d"/>
+</record_update>

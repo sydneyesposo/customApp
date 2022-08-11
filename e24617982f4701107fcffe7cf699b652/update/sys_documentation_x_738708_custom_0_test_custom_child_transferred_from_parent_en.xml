@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="transferred_from_parent" label="transferred from parent" language="en" table="x_738708_custom_0_test_custom_child">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>transferred_from_parent</element>
+            <help/>
+            <hint/>
+            <label>transferred from parent</label>
+            <language>en</language>
+            <name>x_738708_custom_0_test_custom_child</name>
+            <plural>transferred from parents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:53:48</sys_created_on>
+            <sys_id>1505ebfe2f9015107fcffe7cf699b648</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>transferred from parent</sys_name>
+            <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+            <sys_update_name>sys_documentation_x_738708_custom_0_test_custom_child_transferred_from_parent_en</sys_update_name>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:53:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

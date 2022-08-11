@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ml_capability_definition_similarity">
+    <ml_capability_definition_similarity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="Similarity">15ab7f3c53873300d1dcddeeff7b12ce</capability>
+        <current_solution_version>4</current_solution_version>
+        <dataset_language>en</dataset_language>
+        <fields>short_description</fields>
+        <filter table="incident">sys_created_on&gt;=javascript:gs.beginningOfLast6Months()^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.beginningOfLast6Months()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <request_source>ui</request_source>
+        <solution_label>SIMILAR Incident Template</solution_label>
+        <solution_name>ml_x_738708_x_738708_custom_0_global_similar_incident_template</solution_name>
+        <solution_parameters/>
+        <solution_properties/>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ml_capability_definition_similarity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 08:27:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a6686522fc741107fcffe7cf699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIMILAR Incident Template</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>ml_capability_definition_similarity_8a6686522fc741107fcffe7cf699b694</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 08:27:04</sys_updated_on>
+        <table>incident</table>
+        <test_fields>short_description</test_fields>
+        <test_table>incident</test_table>
+        <threshold>80</threshold>
+        <training_frequency>run_once</training_frequency>
+        <update_frequency>every_15_minutes</update_frequency>
+        <word_vector_corpus display_value="Incidents MIM (last 6 months)">5696c1b153813300f214ddeeff7b126d</word_vector_corpus>
+    </ml_capability_definition_similarity>
+</record_update>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_738708_custom_0.autoCategorization</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>autoCategorization</name>
+        <script><![CDATA[var autoCategorization = Class.create();
+autoCategorization.prototype = {
+    initialize: function() {},
+
+
+    autoPopulateData: function(sub, body, fromUser, toUser, copied, direct) {
+
+        var body_low = body.toString().toLowerCase();
+        var sub_low = sub.toString().toLowerCase();
+        var list = [];
+        var query;
+        var payrollreqNo;
+        var payrollreqFields;
+
+        var group = this._getMailboxGroup(toUser);
+
+        //First check will be to see if the email is regarding Redundancy/Restructure
+        var checkRedundancy = this._checkRedundantKeyword(body_low, sub_low);
+        if (checkRedundancy) {
+            payrollreq = this._insertPayrollRequest(checkRedundancy[0], checkRedundancy[1], checkRedundancy[2], fromUser, toUser, body, copied, direct, sub, group);
+            return payrollreq;
+        }
+        //Second check if there is a matching keyword is in the subject
+        else {
+            payrollreqFields = this._checkKeyword(sub_low, group, fromUser, toUser, copied, direct);
+            payrollreqNo = this._insertPayrollRequest(payrollreqFields[0], payrollreqFields[1], payrollreqFields[2], fromUser, toUser, body, copied, direct, sub, group);
+            if (payrollreqNo != undefined) {
+                return payrollreqNo;
+            }
+
+            //Send Request number if keyword found in subject OR ELSE Third check if keyword match is found in the body
+            else {
+                payrollreqFields = this._checkKeyword(body_low, group, fromUser, toUser, copied, direct);
+                payrollreqNo = this._insertPayrollRequest(payrollreqFields[0], payrollreqFields[1], payrollreqFields[2], fromUser, toUser, body, copied, direct, sub, group);
+                if (payrollreqNo != undefined) {
+                    return payrollreqNo;
+                } else {
+                    var req = this._insertPayrollRequest('', '', '', fromUser, toUser, body, copied, direct, sub, group);
+                    return req;
+                }
+            }
+        }
+    },
+
+    _checkKeyword: function(content, group, fromUser, toUser, copied, direct) {
+        var count = 0;
+        var keyword = [];
+
+        var prioData = new GlideRecord('x_dajl_payroll_payroll_priority_lookup');
+        prioData.addEncodedQuery('key_words!=NULL');
+        prioData.orderBy('ranking');
+        prioData.query();
+        while (prioData.next()) {
+            keyword = prioData.key_words.toString().toLowerCase().split(',');
+            for (var i = 0; i < keyword.length; i++) {
+                if (content.indexOf(keyword[i]) > -1 && count == '0') {
+                    count = 1;
+                    var cat = prioData.category.getDisplayValue();
+                    var subcat = prioData.subcategory.getDisplayValue();
+                    var priority = prioData.priority;
+                    return [priority, cat, subcat];
+                }
+            }
+        }
+    },
+
+    /* Check if the email contains the Redudancy Keywords, Send true if yes, else false*/
+
+    _checkRedundantKeyword: function(body, sub) {
+
+        var count = '0';
+        var cat;
+        var subcat;
+        var priority;
+        var group;
+
+        var prioData = new GlideRecord('x_738708_custom_0_custom_priority_lookup');
+        prioData.addEncodedQuery('category=Redundancy^subcategory=Redundancy');
+        prioData.query();
+        while (prioData.next()) {
+            var key_low = prioData.key_words.toLowerCase();
+            var key_arr = key_low.split(',');
+            for (var i = 0; i < key_arr.length; i++) {
+                if ((sub.indexOf(key_arr[i]) >= 0 || body.indexOf(key_arr[i]) > 0) && count == '0') {
+                    count = '1';
+                    cat = prioData.category.getDisplayValue();
+                    subcat = prioData.subcategory.getDisplayValue();
+                    priority = prioData.priority;
+                }
+            }
+            if (count == '1')
+                return [priority, cat, subcat];
+            else
+                return false;
+        }
+    },
+
+    _insertPayrollRequest: function(priority, cat, subcat, fromUser, toUser, body, copied, direct, sub, group) {
+        var company;
+        var affect_contact;
+        var assigned_to;
+
+        /* Process & Fetch the CC & To Users */
+
+        var ToUsers = this._getToUsers(direct);
+        var CCUsers = this._getCCUsers(copied);
+        var requester = this._getRequester(fromUser);
+
+        if (toUser.indexOf("@davidjones.com.au") != -1)
+            company = 'f66b14e1c611227b0166c3a0df4046ff'; // "DAVID JONES" table: core_company
+        if (toUser.indexOf("@countryroadgroup.com.au") != -1)
+            company = '20d9cdce4f2e26002ccdc61f0310c72d';
+        else
+            company = 'f66b14e1c611227b0166c3a0df4046ff';
+
+        /* check for only payroll group */
+
+        var grMember = new GlideRecord('x_dajl_payroll_payroll_auto_rotation');
+        grMember.addEncodedQuery('group=' + gs.getProperty('payroll.payroll.group') + '^team=' + company);
+        grMember.orderBy('last_assigined_date_time');
+        grMember.query();
+        if (grMember.next()) {
+            assigned_to = grMember.user;
+        }
+
+        /* Insert the Payroll Request */
+
+        var payroll = new GlideRecord('x_dajl_payroll_request');
+        payroll.initialize();
+        payroll.contact_type = 'email';
+        payroll.company = company;
+        payroll.requestor = requester;
+        payroll.employee_name = requester;
+        payroll.u_affected_contact = requester;
+        payroll.contact_email = fromUser;
+        payroll.to_email_addresses = ToUsers;
+        payroll.cc_email_addresses = CCUsers;
+        payroll.body_of_the_email = body;
+        payroll.business_function = 'Payroll';
+        payroll.pr_category = cat;
+        payroll.pr_sub_category = subcat;
+        payroll.short_description = sub;
+
+        if (cat == 'Redundancy') {
+            payroll.assignment_group = gs.getProperty('payroll.senior.group');
+            payroll.assigned_to = '';
+        } else {
+            payroll.assignment_group = group;
+            payroll.assigned_to = assigned_to;
+        }
+        payroll.pr_priority = priority;
+        var req = payroll.insert();
+        return req;
+
+    },
+
+    _getMailboxGroup: function(mailbox) {
+        var group;
+        if (mailbox == gs.getProperty('payroll.senior.mailbox')) {
+            group = gs.getProperty('payroll.senior.group');
+        } else if (mailbox == gs.getProperty('payroll.system.mailbox')) {
+            group = gs.getProperty('payroll.system.group');
+        } else if (mailbox == gs.getProperty('payroll.crg.mailbox') || mailbox == gs.getProperty('payroll.dj.mailbox')) {
+            group = gs.getProperty('payroll.payroll.group');
+        }
+        return group;
+    },
+
+    /*Process the list of TO/Direct users , find duplicates and return the unique values*/
+
+    _getToUsers: function(to) {
+
+        var toEmails = to;
+        toEmails = toEmails.split(',');
+        var filteredtoEmails = '';
+
+        for (var j = 0; j < toEmails.length; j++) {
+            if (toEmails[j].toString().toLowerCase().indexOf('payroll') < 0)
+                filteredtoEmails += toEmails[j].toString() + ',';
+        }
+        if (filteredtoEmails != '')
+            filteredtoEmails = filteredtoEmails.substring(0, filteredtoEmails.length - 1);
+
+        return filteredtoEmails;
+    },
+
+    /*Process the list of cc users , find duplicates and return the unique values*/
+
+    _getCCUsers: function(cc) {
+        var ccEmails = cc;
+        ccEmails = ccEmails.split(',');
+        var filteredCCEmails = '';
+
+        for (var i = 0; i < ccEmails.length; i++) {
+            if (ccEmails[i].toString().toLowerCase().indexOf('payroll') < 0)
+                filteredCCEmails += ccEmails[i].toString() + ',';
+        }
+        if (filteredCCEmails != '')
+            filteredCCEmails = filteredCCEmails.substring(0, filteredCCEmails.length - 1);
+
+        return filteredCCEmails;
+    },
+
+    /* Search for the Requester in the table or assign as a guest if not found*/
+
+    _getRequester: function(fromuser) {
+        var requester;
+        var gr = new GlideRecord("sys_user");
+        gr.addEncodedQuery('email=' + fromuser + '^ORu_personal_email=' + fromuser);
+        gr.query();
+        if (gr.next()) {
+            requester = gr.sys_id;
+        } else {
+            requester = '5136503cc611227c0183e96598c4f706'; // guest
+        }
+        return requester;
+    },
+
+    type: 'autoCategorization'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-06-27 03:26:23</sys_created_on>
+        <sys_id>a464189e2fd851107fcffe7cf699b658</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>autoCategorization</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_script_include_a464189e2fd851107fcffe7cf699b658</sys_update_name>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-06-27 03:44:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

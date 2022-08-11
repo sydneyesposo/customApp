@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9e188fb62f8301107fcffe7cf699b613" sys_domain="global" table="x_738708_custom_0_test_custom_child" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>0</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>8d95e7322fd015107fcffe7cf699b652</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>0195e7322fd015107fcffe7cf699b653</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>8195e7322fd015107fcffe7cf699b653</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>3</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>0595e7322fd015107fcffe7cf699b653</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>4</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>8595e7322fd015107fcffe7cf699b653</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <position>5</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>0995e7322fd015107fcffe7cf699b653</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transferred_from_parent</element>
+            <position>6</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>8995e7322fd015107fcffe7cf699b653</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>0d95e7322fd015107fcffe7cf699b653</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>8</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>8d95e7322fd015107fcffe7cf699b653</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>0195e7322fd015107fcffe7cf699b654</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>10</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>8195e7322fd015107fcffe7cf699b654</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>0d952b322fd015107fcffe7cf699b67e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>12</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>8d952b322fd015107fcffe7cf699b67e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>13</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>01952b322fd015107fcffe7cf699b67f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>14</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>81952b322fd015107fcffe7cf699b67f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>15</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>05952b322fd015107fcffe7cf699b67f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>16</position>
+            <sys_created_by>sydney.e</sys_created_by>
+            <sys_created_on>2022-06-29 07:56:14</sys_created_on>
+            <sys_id>85952b322fd015107fcffe7cf699b67f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_test_custom_child" sys_domain="global" view="Default view">9e188fb62f8301107fcffe7cf699b613</sys_ui_section>
+            <sys_updated_by>sydney.e</sys_updated_by>
+            <sys_updated_on>2022-06-29 07:56:14</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_738708_custom_0_test_custom_child</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 02:28:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e188fb62f8301107fcffe7cf699b613</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_738708_custom_0_test_custom_child</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+            <sys_update_name>sys_ui_section_9e188fb62f8301107fcffe7cf699b613</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 02:28:59</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

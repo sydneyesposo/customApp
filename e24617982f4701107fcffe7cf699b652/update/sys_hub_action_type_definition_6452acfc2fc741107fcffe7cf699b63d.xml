@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>test_rest_api</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>test REST API</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-04-21 09:16:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6452acfc2fc741107fcffe7cf699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test REST API</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6452acfc2fc741107fcffe7cf699b63d</sys_update_name>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-04-21 09:16:50</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_hub_action_input action="delete_multiple" query="model=6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_6452acfc2fc741107fcffe7cf699b63d"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=6452acfc2fc741107fcffe7cf699b63d"/>
+</record_update>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function myFunctionSubmit(){
+	var x = $$('.attachment_checkbox[value=true]'); //array of the checkbox elements
+	if(x.length == 0)
+		{
+		alert("Please select an attachment");
+		return false;
+	}
+	else if (x.length > 0)
+		{
+		var list_of_attchs_ids = '';
+		var attch_name  = '';
+		for (var j=0; j< x.length; j++) {
+			//get the sys_id of the attachment from the checkbox element name
+			attch_name  = x[j].name.split(':');
+			if (list_of_attchs_ids=='')
+				list_of_attchs_ids = attch_name[1];
+			else
+				list_of_attchs_ids = list_of_attchs_ids + ','+ attch_name[1];
+		}
+		
+		var ajax = new GlideAjax("getAttachmentListsPayroll"); // Script include
+		ajax.addParam("sysparm_name","updateAttachments");
+		ajax.addParam("sysparm_attachmentsysid",list_of_attchs_ids);
+		ajax.getXMLWait();
+	}
+	
+	var ticket_id = g_form.getUniqueValue();
+	var table_name = g_form.getTableName();
+	
+	var newURL = 'email_client.do?sysparm_table=' + table_name + '&sysparm_sys_id='+ ticket_id +'&sysparm_target=' + table_name + '&sys_target=' + table_name + '&sys_uniqueValue=' + ticket_id +
+	'&sys_row=0&sysparm_encoded_record='; //build the URL of the email client window
+	
+	popupOpenEmailClient(newURL); //opens the email client
+	
+	GlideDialogWindow.get().destroy(); //to automatically close the window
+}
+
+
+function myFunctionCancel()
+{
+	GlideDialogWindow.get().destroy();
+}]]></client_script>
+        <description>to copy attachments from payroll record to email client</description>
+        <direct>false</direct>
+        <endpoint>x_738708_custom_0_show_attachments_email.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<j:set var="jvar_sysid" value="${sysparm_sys_id}"/>
+<g:evaluate var="jvar_att" jelly="true" object="true">
+    var arr =  [];
+	var size_bytes = 0;
+                var records = [];
+                var att = new GlideRecord("sys_attachment");
+                att.addEncodedQuery("table_sys_id=" + jelly.jvar_sysid);
+	            att.orderBy("file_name");
+                att.query();
+                while(att.next())
+                {
+                  arr.push(att.file_name.toString());
+                  records.push(att.sys_id.toString());
+                }
+	            
+                var arr1 = '';
+                var records1 =  '';
+                for(var i=0;i&lt;arr.length;i++)
+                  {
+                     if(i == 0)
+                          records1 = records[i];
+                      else if(arr[i] != arr[i-1])
+                        {
+	records1 = records1 + ',' + records[i];
+                      }
+      }
+	    
+                var att1 = new GlideRecord("sys_attachment");
+                att1.addEncodedQuery("sys_idIN" + records1);
+                att1.query();
+                att1;
+</g:evaluate> 
+	<br />
+<j2:if test="${jvar_att.hasNext()}">
+<j:while test="${jvar_att.next()}">
+<g:ui_checkbox name='related_attachment:${jvar_att.getValue("sys_id")}' value='${jvar_att.getValue("file_name")}' class='attachment_checkbox'>${jvar_att.getValue("file_name")}</g:ui_checkbox><br/>
+                </j:while>
+                </j2:if>
+                <br/>
+	<p> NOTE:  Emails with large size attachments can cause delay or significant loss of data while processing. Please make sure only required and necessary attachments are selected.</p> 
+	<br />
+                <button onclick="myFunctionSubmit()">Ok</button>
+                <button onclick="myFunctionCancel()">Cancel</button>
+</j:jelly>]]></html>
+        <name>show_attachments_email</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>sydney.e</sys_created_by>
+        <sys_created_on>2022-06-27 03:57:29</sys_created_on>
+        <sys_id>f61b5c162f1c51107fcffe7cf699b6cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>show_attachments_email</sys_name>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sys_ui_page_f61b5c162f1c51107fcffe7cf699b6cf</sys_update_name>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-06-27 03:57:29</sys_updated_on>
+    </sys_ui_page>
+</record_update>

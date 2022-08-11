@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectLIKEtest Custom^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="test Custom"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>test custom create</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[// (function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+// 	// Implement email action here
+
+// })(current, event, email, logger, classifier);
+//current.caller_custom = gs.getUserID();
+// current.comments = "received from" + email.original + email.body_text;
+// current.short_description = email.subject;
+//current.caller_custom = email.from;
+
+// if (email.body_html == "hardware") {
+// 	current.category.setDisplayValue("Hardware");
+// 	}
+
+// var keyword = email.subject;
+// var cat = current.category;
+// var subcat = current.subcategory;
+
+
+// // if ((email.subject.toLowerCase().indexOf("anti") > -1) || email.subject.toLowerCase().indexOf ("Antivirus") > -1) {
+// if ((keyword.toLowerCase().indexOf("anti") > -1) || keyword.toLowerCase().indexOf("Antivirus") > -1) {
+//     cat.setDisplayValue("Inquiry");
+//     subcat.setDisplayValue("Antivirus");
+// }
+
+// current.insert();
+
+// var demoGlide=new GlideRecord('x_738708_custom_0_test_custom');
+// var a = demoGlide.addJoinQuery('x_738708_custom_0_custom_priority_lookup');
+// demoGlide.initialize();
+// demoGlide.category.setDisplayValue('Hardware');
+// demoGlide.subcategory.setDisplayValue('CPU');
+// demoGlide.insert();
+
+// 	caseGR.description = email.body_text;
+
+// var keyword = email.subject;
+// var cat = current.category;
+// var subcat = current.subcategory;
+
+// var splittotext=keyword.split(' ');
+// for(i=0;i<splittotext.length;i++)
+// {
+// var chkintable=new GlideRecord('x_738708_custom_0_custom_priority_lookup');//replace table_name with your table
+// chkintable.addEncodedQuery('key_words'+splittotext[i]);//replae name with keyword fieldname
+// chkintable.query();
+// if(chkintable.next())
+// {
+//     cat.setDisplayValue(chkintable.category);//replace category with field in custom table that has combinations stored
+//    // subcat.setDisplayValue(chkintable.subcategory);//replace subcategory with field in custom table that has combinations stored
+// }
+
+// }
+
+var key = email.subject;
+var splittotext=key.split('');
+for(i=0;i<splittotext.length;i++)
+{
+var chkintable=new GlideRecord('x_738708_custom_0_test_custom');
+//var a = chkintable.addJoinQuery('x_738708_custom_0_custom_priority_lookup');
+chkintable.addEncodedQuery('app'+splittotext[i]);//replae name with keyword fieldname
+chkintable.initialize();
+
+chkintable.query();
+
+
+if(chkintable.next())
+
+{
+  current.category.setDisplayValue(chkintable.category);
+  current.subcategory.setDisplayValue(chkintable.subcategory);
+current.keyword.setDisplayValue(chkintable.keyword);
+
+}
+chkintable.insert();
+}
+]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-10 22:29:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ccd45472f1301107fcffe7cf699b603</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>test custom create</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+        <sys_update_name>sysevent_in_email_action_9ccd45472f1301107fcffe7cf699b603</sys_update_name>
+        <sys_updated_by>sydney.e</sys_updated_by>
+        <sys_updated_on>2022-06-01 08:39:36</sys_updated_on>
+        <table>x_738708_custom_0_test_custom</table>
+        <template>short_descriptionDYNAMICb637bd21ef3221002841f7f775c0fbb6^EQ</template>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4a5087722f8301107fcffe7cf699b63c" sys_domain="global" table="x_738708_custom_0_x_738708_0_x_738708_custom_child" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 01:55:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d25087722f8301107fcffe7cf699b641</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_738708_custom_0_x_738708_0_x_738708_custom_child" name="x_738708_custom_0_x_738708_0_x_738708_custom_child" sys_domain="global" view="Default view">4a5087722f8301107fcffe7cf699b63c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_738708_custom_0_x_738708_0_x_738708_custom_child" sys_domain="global" view="Default view">cfe394202f4b01107fcffe7cf699b6b8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 01:55:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 01:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2da00f722f8301107fcffe7cf699b61c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_738708_custom_0_x_738708_0_x_738708_custom_child" name="x_738708_custom_0_x_738708_0_x_738708_custom_child" sys_domain="global" view="Default view">4a5087722f8301107fcffe7cf699b63c</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_738708_custom_0_x_738708_0_x_738708_custom_child" sys_domain="global" view="Default view">2da0cb722f8301107fcffe7cf699b69d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 01:56:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 01:55:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de5087722f8301107fcffe7cf699b641</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_738708_custom_0_x_738708_0_x_738708_custom_child" name="x_738708_custom_0_x_738708_0_x_738708_custom_child" sys_domain="global" view="Default view">4a5087722f8301107fcffe7cf699b63c</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_738708_custom_0_x_738708_0_x_738708_custom_child" sys_domain="global" view="Default view">ce5047722f8301107fcffe7cf699b6e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 01:56:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_738708_custom_0_x_738708_0_x_738708_custom_child</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-28 01:55:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a5087722f8301107fcffe7cf699b63c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_738708_custom_0_x_738708_0_x_738708_custom_child</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Custom App" source="x_738708_custom_0">e24617982f4701107fcffe7cf699b652</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom App">e24617982f4701107fcffe7cf699b652</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4a5087722f8301107fcffe7cf699b63c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-28 01:55:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
