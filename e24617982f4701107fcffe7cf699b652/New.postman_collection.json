@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "e98b7cb6-1b33-4c4d-8f55-b74e5766f9e5",
+		"name": "New",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20618991"
+	},
+	"item": [
+		{
+			"name": "Integration Demo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "*******",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"u_requested_for\":\"Sydney Esposo\",\"u_short_description\":\"Created from Post Man\",\"u_email_id\":\"api@postman.com\",\"sys_import_state\":\"1\"}\n"
+				},
+				"url": {
+					"raw": "https://dev76583.service-now.com/api/now/import/x_738708_custom_0_inbound_integration_de/16aedd942f2511107fcffe7cf699b603?Content-Type=application/json",
+					"protocol": "https",
+					"host": [
+						"dev76583",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"import",
+						"x_738708_custom_0_inbound_integration_de",
+						"16aedd942f2511107fcffe7cf699b603"
+					],
+					"query": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
