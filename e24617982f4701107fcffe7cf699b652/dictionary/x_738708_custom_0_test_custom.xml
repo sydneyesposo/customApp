@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="email_client=true" audit="true" extends="task" label="test Custom" max_length="40" name="x_738708_custom_0_test_custom" sizeclass="113" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="test Custom" max_length="40" name="x_738708_custom_0_test_custom" sizeclass="114" type="collection">
         <element dependent="company" dependent_on_field="company" label="Caller" max_length="32" name="caller_custom" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element choice="1" choice_field="category" choice_table="x_738708_custom_0_custom_priority_lookup" label="Category" max_length="40" name="category" type="string">
             <choice>
@@ -21,6 +21,7 @@
         </element>
         <element attributes="encode_utf8=false" label="Test Child" max_length="32" name="test_child" reference="x_738708_custom_0_test_custom_child" type="reference"/>
         <element label="transferred from child" max_length="40" name="transferred_from_child" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email_Content" max_length="40" name="u_email_content" type="string"/>
     </element>
 </database>

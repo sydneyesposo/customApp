@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Inbound Integration Demo" max_length="40" name="x_738708_custom_0_inbound_integration_de" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_email_id" label="Email ID" max_length="40" name="u_email_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_requested_for" label="Requested for" max_length="40" name="u_requested_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_short_description" label="Short description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_state" label="state" max_length="40" name="u_state" type="string"/>
+    </element>
+</database>
