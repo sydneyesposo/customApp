@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-05-10 02:40:08">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Group Dependency check application files. This installs a global application which can be used to check where group is used before deactivating it.</description>
+<inserted/>
+<name>Group Dependency Check_v1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2ad6f4d62f332010d826d5f62799b6eb</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>047151512f003010d826d5f62799b62c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_group_dependency_u_group_dependency</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_group_dependency" table="u_group_dependency"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Group Dependency&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_group_dependency&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="HTML"&gt;html&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;name&gt;u_group_dependency&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-30 17:08:54&lt;/sys_created_on&gt;&lt;sys_id&gt;7648bcd62f332010d826d5f62799b67d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Group Dependency&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_group_dependency_u_group_dependency&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-30 17:08:54&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1038040295</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>007151512f003010d826d5f62799b62e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c134a10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency.Group Dependency</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7468b05a5f332010e0ab5289e8e768ac</update_guid>
+<update_guid_history>7468b05a5f332010e0ab5289e8e768ac:-1038040295</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e287b41a2f332010d826d5f62799b66a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:13</sys_created_on><sys_id>e287b41a2f332010d826d5f62799b66a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_group_dependency">2687b41a2f332010d826d5f62799b667</sys_security_acl><sys_update_name>sys_security_acl_role_e287b41a2f332010d826d5f62799b66a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:13</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-368534110</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>007151512f003010d826d5f62799b631</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdd17b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_group_dependency.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a687b41a08332010859df93867f2726c</update_guid>
+<update_guid_history>a687b41a08332010859df93867f2726c:-368534110</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_d287301a2f332010d826d5f62799b6bf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Group Dependency Check">d687301a2f332010d826d5f62799b6bb</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Group Dependencies</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_group_dependency</name><order>20</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>itil</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d287301a2f332010d826d5f62799b6bf</sys_id><sys_mod_count>3</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_d287301a2f332010d826d5f62799b6bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-01 17:24:47</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-2143681538</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>047151512f003010d826d5f62799b62d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17928f618170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>All</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>0f95c2eebd7320104921e836955428ca</update_guid>
+<update_guid_history>0f95c2eebd7320104921e836955428ca:-2143681538,b8ffb9aa74732010c3ceb431de13909d:1078856742,2571a56645332010496b3d00705c2801:-1176713250,9e87b41ac233201023bc85815c45194b:1687759774</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_da87b41a2f332010d826d5f62799b653</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_group_dependency</description><name>u_group_dependency</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:12</sys_created_on><sys_id>da87b41a2f332010d826d5f62799b653</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_da87b41a2f332010d826d5f62799b653</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>722641895</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>047151512f003010d826d5f62799b630</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdcfcf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_group_dependency</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6a87b41a18332010ae90aebd3366b356</update_guid>
+<update_guid_history>6a87b41a18332010ae90aebd3366b356:722641895</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_ed5cfde62f732010d826d5f62799b6fb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>u_group_dependency</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-01 16:44:33</sys_created_on><sys_id>ed5cfde62f732010d826d5f62799b6fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_ed5cfde62f732010d826d5f62799b6fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-01 16:44:33</sys_updated_on><table>u_group_dependency</table><ui_policy display_value="Make fields read-only">64fbf9e62f732010d826d5f62799b612</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+<payload_hash>-1851348043</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>0471d5512f003010d826d5f62799b620</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17928d145530000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_group_dependency</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>316cfde638732010c7665d99f30dadaf</update_guid>
+<update_guid_history>316cfde638732010c7665d99f30dadaf:-1851348043</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_d687301a2f332010d826d5f62799b6bb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Group Dependency</name><order>100</order><roles>itil</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d687301a2f332010d826d5f62799b6bb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Group Dependency Check</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_d687301a2f332010d826d5f62799b6bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-01 16:59:42</sys_updated_on><title>Group Dependency Check</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-317223591</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>087151512f003010d826d5f62799b62c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17928df207e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table/>
+<target_name>Group Dependency Check</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>abdf39aa6673201009a9804e347c42a9</update_guid>
+<update_guid_history>abdf39aa6673201009a9804e347c42a9:-317223591,d287301ad4332010a796928d60a58dbe:-1852157927</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_99e261a62f332010d826d5f62799b662</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.GroupDependencyUtilGlobal&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GroupDependencyUtilGlobal&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GroupDependencyUtilGlobal = Class.create();
+GroupDependencyUtilGlobal.prototype = {
+    initialize: function() {},
+
+
+    getGroupDependency: function(groupName, groupSys_ID) {
+        var results = '&lt;h4&gt;Group Dependency for group name: ' + groupName + ' - group sys_id: ' + groupSys_ID + '&lt;/h4&gt;';
+        var queryString = '';
+        //Active Tasks
+        results += this.checkActiveTasks(groupSys_ID, groupName);
+        //Email NOtifications
+        results += this.checkEmailNotifications(groupSys_ID, groupName);
+        //Inbound Email Actions
+        results += this.checkInboundActions(groupSys_ID, groupName);
+        //System Properties
+        results += this.checkSystemProperties(groupSys_ID, groupName);
+        //Workflow Fulfillment
+        results += this.checkWorkflowVariables(groupSys_ID, groupName);
+        //WorkFlow Scripts
+        results += this.checkWorkflowScripts(groupSys_ID, groupName);
+        //Business Service
+        results += this.checkBusinessServices(groupSys_ID, groupName);
+        // Catalog Items
+        results += this.checkCatalogItems(groupSys_ID, groupName);
+        //Business Rules
+        results += this.checkBusinessRules(groupSys_ID, groupName);
+        //Client Scripts
+        results += this.checkClientScripts(groupSys_ID, groupName);
+        //Scheduled Jobs
+        results += this.checkScheduledJobs(groupSys_ID, groupName);
+        //UI Action
+        results += this.checkUIActions(groupSys_ID, groupName);
+        //ACL
+        results += this.checkACL(groupSys_ID, groupName);
+        //UI Policy
+        results += this.checkUIPolicies(groupSys_ID, groupName);
+        //Record Producer
+        results += this.checkRecordProducers(groupSys_ID, groupName);
+        // Script Includes
+        results += this.checkScriptIncludes(groupSys_ID, groupName);
+        //Email Scripts
+        results += this.checkEmailScripts(groupSys_ID, groupName);
+
+        return results;
+
+    },
+
+    // Check Active tasks
+    checkActiveTasks: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'active=true^assignment_group=' + groupSys_ID;
+        var count = new GlideAggregate('task');
+        count.addEncodedQuery(queryString);
+        count.addAggregate('COUNT');
+        count.query();
+        var tasks = 0;
+        if (count.next())
+            tasks = count.getAggregate('COUNT');
+        results += "&lt;h4&gt; Number of Active tasks assigned to group " + groupName + ": " + tasks + '&lt;/h4&gt;';
+
+        return results;
+    },
+
+    //check email notifications
+    checkEmailNotifications: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'active=true^recipient_groups=' + groupSys_ID + '^ORconditionLIKE' + groupSys_ID + '^ORadvanced_conditionLIKE' + groupSys_ID + '^ORadvanced_conditionLIKE' + groupName;
+        var gAgg = new GlideAggregate('sysevent_email_action');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+            results += '&lt;h4&gt;Group used in Email Notifications : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+            if (count &gt; 0) {
+                var emailAction = new GlideRecord('sysevent_email_action');
+                emailAction.addEncodedQuery(queryString);
+                emailAction.query();
+
+                while (emailAction.next()) {
+                    results += '--&gt; Group needs to be removed from notification: ' + emailAction.name + ' - sys_id: ' + emailAction.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //Check Inbound email Actions
+    checkInboundActions: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'active=true^scriptLIKE' + groupSys_ID + '^ORscriptLIKE' + groupName;
+        var gAgg = new GlideAggregate('sysevent_in_email_action');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+            results += '&lt;h4&gt;Group used in Inbound Email Action : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+            if (count &gt; 0) {
+                var inboundEmailAction = new GlideRecord('sysevent_in_email_action');
+                inboundEmailAction.addEncodedQuery(queryString);
+                inboundEmailAction.query();
+
+                while (inboundEmailAction.next()) {
+                    results += '--&gt; Group needs to be removed from Inbound Action: ' + inboundEmailAction.name + ' - sys_id: ' + inboundEmailAction.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+
+        return results;
+    },
+
+    //Check system properties
+    checkSystemProperties: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'valueLIKE' + groupSys_ID + '^ORvalueLIKE' + groupName;
+        var gAgg = new GlideAggregate('sys_properties');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+            results += '&lt;h4&gt; Group used in System Properties : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+            if (count &gt; 0) {
+                var systemProperties = new GlideRecord('sys_properties');
+                systemProperties.addEncodedQuery(queryString);
+                systemProperties.query();
+                while (systemProperties.next()) {
+                    results += '--&gt; Group needs to be removed from System Properties: ' + systemProperties.name + ' - sys_id: ' + systemProperties.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //check workflow fulfillment variables
+    checkWorkflowVariables: function(groupSys_ID, groupName) {
+        var results = "";
+        //check workflow fulfillment variable
+        queryString = 'document=wf_activity^value=' + groupSys_ID + '^ORvalueSTARTSWITH' + groupName + '^ORDERBYorder';
+        var gAgg = new GlideAggregate('sys_variable_value');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+
+            results += '&lt;h4&gt; Group used in Workflow Variables(sys_variable_value), number contains both Active and Inactive workflows but detail result is for only active workflows : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+            if (count &gt; 0) {
+                var workflowVariable = new GlideRecord('sys_variable_value');
+                workflowVariable.addEncodedQuery(queryString);
+                workflowVariable.query();
+                var workflowActivityVariable = new GlideRecord('wf_activity');
+                while (workflowVariable.next()) {
+                    if (workflowActivityVariable.get(workflowVariable.document_key))
+                        if (workflowActivityVariable.workflow_version.published == true)
+                            results += '--&gt; For Workflow: ' + workflowActivityVariable.workflow_version.name + ', activity needs group change: ' + workflowVariable.document_key.name + ' - variable: ' + workflowVariable.variable.label + ' - sys_id: ' + workflowVariable.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+    //Check Workflow Scripts
+    checkWorkflowScripts: function(groupSys_ID, groupName) {
+        var results = "";
+        //check workflow script
+        queryString = 'document=wf_activity^variableLIKEscript^ORvariable.internal_type.nameLIKEscript^valueLIKE' + groupName + '^ORvalueLIKE' + groupSys_ID + '^ORDERBYorder';
+        var gAgg = new GlideAggregate('sys_variable_value');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+            results += '&lt;h4&gt;Group used in Workflow script,number contains both Active and Inactive workflows but detail result is for only active workflows :  ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var workflowScript = new GlideRecord('sys_variable_value');
+                workflowScript.addEncodedQuery(queryString);
+                workflowScript.query();
+
+                var workflowActivityScript = new GlideRecord('wf_activity');
+                while (workflowScript.next()) {
+                    if (workflowActivityScript.get(workflowScript.document_key))
+                        if (workflowActivityScript.workflow_version.published == true)
+                            results += '--&gt; For Workflow: ' + workflowActivityScript.workflow_version.name + ', script activity needs group change: ' + workflowScript.document_key.name + ' - sys_id: ' + workflowScript.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //Check Business Services
+    checkBusinessServices: function(groupSys_ID, groupName) {
+        var results = "";
+        //check business services
+        queryString = "change_control=" + groupSys_ID + "^ORassignment_group=" + groupSys_ID + "^ORsupport_group=" + groupSys_ID + "^ORuser_group=" + groupSys_ID;
+        var gAgg = new GlideAggregate('cmdb_ci_service');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+            results += '&lt;h4&gt;Group used in Business Services : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var serviceRec = new GlideRecord('cmdb_ci_service');
+                serviceRec.addEncodedQuery(queryString);
+                serviceRec.query();
+
+                while (serviceRec.next()) {
+                    results += '--&gt; Business service needs group change: ' + serviceRec.name + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //CHeck Catalog Items
+    checkCatalogItems: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'group=' + groupSys_ID;
+        var gAgg = new GlideAggregate('sc_cat_item');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+            results += '&lt;h4&gt; Group used in Catalog Items : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var catalogItem = new GlideRecord('sc_cat_item');
+                catalogItem.addEncodedQuery(queryString);
+                catalogItem.query();
+
+                while (catalogItem.next()) {
+                    results += '--&gt; Catalog item needs group change: ' + catalogItem.name + ' - sys_id: ' + catalogItem.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //Check Business Rules
+    checkBusinessRules: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'scriptLIKE' + groupName + '^ORscriptLIKE' + groupSys_ID;
+        var gAgg = new GlideAggregate('sys_script');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+            results += '&lt;h4&gt;Group used in Bsuiness Rules : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var businessRule = new GlideRecord('sys_script');
+                businessRule.addEncodedQuery(queryString);
+                businessRule.query();
+
+                while (businessRule.next()) {
+                    results += '--&gt; Business rule needs group change: ' + businessRule.name + ' - sys_id: ' + businessRule.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //Check Client Scripts
+    checkClientScripts: function(groupSys_ID, groupName) {
+        var results = "";
+        //check client scripts
+        queryString = 'scriptLIKE' + groupName + '^ORscriptLIKE' + groupSys_ID;
+        var gAgg = new GlideAggregate('sys_script_client');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+            results += '&lt;h4&gt;Group used in Client Scripts : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var clientScript = new GlideRecord('sys_script_client');
+                clientScript.addEncodedQuery(queryString);
+                clientScript.query();
+
+                while (clientScript.next()) {
+                    results += '--&gt; Client script needs group change: ' + clientScript.name + ' - sys_id: ' + clientScript.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //Scheduled Job Scripts
+    checkScheduledJobs: function(groupSys_ID, groupName) {
+        var results = "";
+        //scheduled job scripts
+        queryString = 'scriptLIKE' + groupName + '^ORscriptLIKE' + groupSys_ID;
+        var gAgg = new GlideAggregate('sysauto_script');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+            results += '&lt;h4&gt;Group used in Scheduled Jobs : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var scheduledJobScript = new GlideRecord('sysauto_script');
+                scheduledJobScript.addEncodedQuery(queryString);
+                scheduledJobScript.query();
+
+                while (scheduledJobScript.next()) {
+                    results += '--&gt; Client script needs group change: ' + scheduledJobScript.name + ' - sys_id: ' + scheduledJobScript.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //Check UI Actions
+    checkUIActions: function(groupSys_ID, groupName) {
+        var results = "";
+        //ui action scripts
+        queryString = 'scriptLIKE' + groupName + '^ORscriptLIKE' + groupSys_ID;
+        var gAgg = new GlideAggregate('sys_ui_action');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+
+            results += '&lt;h4&gt;Group used in UI Actions : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var uiAction = new GlideRecord('sys_ui_action');
+                uiAction.addEncodedQuery(queryString);
+                uiAction.query();
+
+                while (uiAction.next()) {
+                    results += '--&gt; Client script needs group change: ' + uiAction.name + ' - sys_id: ' + uiAction.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //Check ACL 
+    checkACL: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'scriptLIKE' + groupName + '^ORscriptLIKE' + groupSys_ID;
+        var gAgg = new GlideAggregate('sys_security_acl');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+
+            results += '&lt;h4&gt;Group used in ACLs : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var aclScript = new GlideRecord('sys_security_acl');
+                aclScript.addEncodedQuery(queryString);
+                aclScript.query();
+
+                while (aclScript.next()) {
+                    results += '--&gt; ACL needs group change: ' + aclScript.name + ' - sys_id: ' + aclScript.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+
+        return results;
+    },
+    //Check UI Policies
+    checkUIPolicies: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'script_falseLIKE' + groupName + '^ORscript_falseLIKE' + groupSys_ID + '^ORscript_trueLIKE' + groupName + '^ORscript_trueLIKE' + groupSys_ID;
+        var gAgg = new GlideAggregate('sys_ui_policy');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+
+            results += '&lt;h4&gt;Group used in UI Policies : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var uiPolicy = new GlideRecord('sys_ui_policy');
+                uiPolicy.addEncodedQuery(queryString);
+                uiPolicy.query();
+
+                while (uiPolicy.next()) {
+                    results += '--&gt; UI policy needs group change: ' + uiPolicy.name + ' - sys_id: ' + uiPolicy.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //Check Record Producers
+    checkRecordProducers: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'scriptLIKE' + groupName + '^ORscriptLIKE' + groupSys_ID;
+        var gAgg = new GlideAggregate('sc_cat_item_producer');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+
+            results += '&lt;h4&gt;Group used in Record Producers : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var recordProducer = new GlideRecord('sc_cat_item_producer');
+                recordProducer.addEncodedQuery(queryString);
+                recordProducer.query();
+
+                while (recordProducer.next()) {
+                    results += '--&gt; Record producer needs group change: ' + recordProducer.name + ' - sys_id: ' + recordProducer.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+
+    //Check Script Incudes
+    checkScriptIncludes: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'scriptLIKE' + groupName + '^ORscriptLIKE' + groupSys_ID;
+        var gAgg = new GlideAggregate('sys_script_include');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+
+            results += '&lt;h4&gt;Group used in Script Includes : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var scriptInclude = new GlideRecord('sys_script_include');
+                scriptInclude.addEncodedQuery(queryString);
+                scriptInclude.query();
+
+                while (scriptInclude.next()) {
+                    results += '--&gt; Script include needs group change: ' + scriptInclude.name + ' - sys_id: ' + scriptInclude.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+
+    },
+
+    //Check email Scripts
+    checkEmailScripts: function(groupSys_ID, groupName) {
+        var results = "";
+        queryString = 'scriptLIKE' + groupName + '^ORscriptLIKE' + groupSys_ID;
+        var gAgg = new GlideAggregate('sys_script_email');
+        gAgg.addEncodedQuery(queryString);
+        gAgg.addAggregate('COUNT');
+        gAgg.query();
+        var count = 0;
+        if (gAgg.next()) {
+
+            results += '&lt;h4&gt;Group used in Email Scripts : ' + gAgg.getAggregate('COUNT') + '&lt;/h4&gt;';
+            count = gAgg.getAggregate('COUNT');
+
+            if (count &gt; 0) {
+                var mailScript = new GlideRecord('sys_script_email');
+                mailScript.addEncodedQuery(queryString);
+                mailScript.query();
+
+                while (mailScript.next()) {
+                    results += '--&gt; Mail script needs group change: ' + mailScript.name + ' - sys_id: ' + mailScript.sys_id + '&lt;br&gt;';
+                }
+            }
+        }
+        return results;
+    },
+    type: 'GroupDependencyUtilGlobal'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-01 14:54:05&lt;/sys_created_on&gt;&lt;sys_id&gt;99e261a62f332010d826d5f62799b662&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;GroupDependencyUtilGlobal&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_99e261a62f332010d826d5f62799b662&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-01 18:03:42&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>523400413</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>087151512f003010d826d5f62799b62f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1792919bb3c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table/>
+<target_name>GroupDependencyUtilGlobal</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>498e026634b32010c2d9a87b6e60ae20</update_guid>
+<update_guid_history>498e026634b32010c2d9a87b6e60ae20:523400413,f095e52a5033201074580ad6d057c57a:-2085710342,82d469e6d13320104483c226c5064bec:-609868696,af1361a6e5332010ff9b2650fcaa0368:-1549862738</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_64fbf9e62f732010d826d5f62799b612</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make fields read-only&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-01 16:43:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;64fbf9e62f732010d826d5f62799b612&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make fields read-only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_64fbf9e62f732010d826d5f62799b612&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-01 16:43:33&lt;/sys_updated_on&gt;&lt;table&gt;u_group_dependency&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1574088541</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>087151512f003010d826d5f62799b632</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17928d058d20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Make fields read-only</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>c72c7de65073201095c11b02be5b8788</update_guid>
+<update_guid_history>c72c7de65073201095c11b02be5b8788:1574088541</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_group_dependency_u_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_number" label="Number" language="en" table="u_group_dependency"><sys_documentation action="INSERT_OR_UPDATE"><element>u_number</element><help/><hint/><label>Number</label><language>en</language><name>u_group_dependency</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:14:37</sys_created_on><sys_id>18b9f09a2f332010d826d5f62799b6d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_group_dependency_u_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:14:37</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2081046853</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>0c7151512f003010d826d5f62799b62e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c66dcf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>dcb9f09a533320102c0ab144b7a7e1e1</update_guid>
+<update_guid_history>dcb9f09a533320102c0ab144b7a7e1e1:-2081046853</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_f21f75aa2f732010d826d5f62799b668</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;sysverb_update&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;false&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Update&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script/&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-01 16:56:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f21f75aa2f732010d826d5f62799b668&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_f21f75aa2f732010d826d5f62799b668&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-01 16:57:40&lt;/sys_updated_on&gt;&lt;table&gt;u_group_dependency&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1401681030</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>0c7151512f003010d826d5f62799b631</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17928dd45440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Update</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>796f79aa1f73201095792bd9a0ef4a51</update_guid>
+<update_guid_history>796f79aa1f73201095792bd9a0ef4a51:-1401681030,322f716a457320102dee0d02731a1cf7:-1435221424</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_4545ceae2f732010d826d5f62799b663</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Group Dependency Check">d687301a2f332010d826d5f62799b6bb</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_group_dependency</name><order>10</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>itil</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-01 17:24:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4545ceae2f732010d826d5f62799b663</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_4545ceae2f732010d826d5f62799b663</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-01 17:24:14</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1071763627</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>407151512f003010d826d5f62799b62d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17928f599590000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Create New</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>4375caaecd732010e440c35b8f3edf68</update_guid>
+<update_guid_history>4375caaecd732010e440c35b8f3edf68:-1071763627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2687b41a2f332010d826d5f62799b667</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_group_dependency</description><name>u_group_dependency</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:12</sys_created_on><sys_id>2687b41a2f332010d826d5f62799b667</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_2687b41a2f332010d826d5f62799b667</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>942094025</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>407151512f003010d826d5f62799b630</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdd13d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_group_dependency</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6687b41a1233201046e935514bb16169</update_guid>
+<update_guid_history>6687b41a1233201046e935514bb16169:942094025</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_a82a789a2f332010d826d5f62799b6b0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_group_dependency&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Get Group Dependency&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var groupSysId = current.u_group;
+	var groupName = current.getDisplayValue('u_group');
+	
+	var gDUtil = new GroupDependencyUtilGlobal();
+	var groupDependency = gDUtil.getGroupDependency(groupName, groupSysId);
+	
+	current.u_group_dependency = groupDependency;
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-30 17:17:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a82a789a2f332010d826d5f62799b6b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Group Dependency&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_a82a789a2f332010d826d5f62799b6b0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-01 15:09:15&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a82a789a2f332010d826d5f62799b6b0"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1767444430</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>447151512f003010d826d5f62799b62f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179287a04b40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Get Group Dependency</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>7196e16a5c332010f2c29c3a5971047a</update_guid>
+<update_guid_history>7196e16a5c332010f2c29c3a5971047a:-1767444430,2bf4ada614332010d312e6c66ab93e23:-1592412936,80e4a12a17332010ce5e41e787aa8707:-357079188,0214eda6a53320105064b8156f4ed2c8:-88888497,ac222d66d6332010a3a325e1b682f3a0:399564997,1d4a789abd33201039c8b59872ccc065:1218590033</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_de87b41a2f332010d826d5f62799b64f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Group Dependency">de87b41a2f332010d826d5f62799b64c</application><filter/><name>Group Dependencies</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>itil</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>de87b41a2f332010d826d5f62799b64f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Group Dependencies</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_de87b41a2f332010d826d5f62799b64f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:12</sys_updated_on><table>u_group_dependency</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-2006783432</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>447151512f003010d826d5f62799b632</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdcefd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependencies</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>9a87b41a6a3320101b72859649016f52</update_guid>
+<update_guid_history>9a87b41a6a3320101b72859649016f52:-2006783432</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_group_dependency_u_group_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_group" label="Group" language="en" table="u_group_dependency"><sys_documentation action="INSERT_OR_UPDATE"><element>u_group</element><help/><hint/><label>Group</label><language>en</language><name>u_group_dependency</name><plural>Groups</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:07:45</sys_created_on><sys_id>3b18bc1a2f332010d826d5f62799b6bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Group</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_group_dependency_u_group_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:07:45</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1395926057</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>487151512f003010d826d5f62799b62e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c025340000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency.Group</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3b18bc1a6233201046212623a8869ec8</update_guid>
+<update_guid_history>3b18bc1a6233201046212623a8869ec8:1395926057</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_83adb16a2f732010d826d5f62799b6a5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.canCreate() &amp;amp;&amp;amp; current.isNewRecord()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Get Results&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[answer = current.insert();
+action.setRedirectURL(current);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-01 16:51:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;83adb16a2f732010d826d5f62799b6a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Results&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_83adb16a2f732010d826d5f62799b6a5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-01 17:15:21&lt;/sys_updated_on&gt;&lt;table&gt;u_group_dependency&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2114975903</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>487151512f003010d826d5f62799b631</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17928ed76690000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Get Results</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>74734a2e117320106b0bbf8b9f1ce31b</update_guid>
+<update_guid_history>74734a2e117320106b0bbf8b9f1ce31b:-2114975903,97e28eeac8732010cfa6a768585fa815:2068619984,ead1c22e79732010997af7be9d3c6c74:1438778617,182e796a197320108ec27e4feb3ad418:2068619984,660e716a5473201065c91e282e419bba:1669696348</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_group_dependency_u_group</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_group" table="u_group_dependency"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Group&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_group&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_group_dependency&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user_group"&gt;sys_user_group&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-30 17:07:45&lt;/sys_created_on&gt;&lt;sys_id&gt;63d7f81a2f332010d826d5f62799b6ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Group&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_group_dependency_u_group&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-30 17:07:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>61768430</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>4c7151512f003010d826d5f62799b62d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c025090000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency.Group</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b318bc1a7f332010ba0250a295226ec7</update_guid>
+<update_guid_history>b318bc1a7f332010ba0250a295226ec7:61768430</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e287b41a2f332010d826d5f62799b664</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:12</sys_created_on><sys_id>e287b41a2f332010d826d5f62799b664</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_group_dependency">2687b41a2f332010d826d5f62799b661</sys_security_acl><sys_update_name>sys_security_acl_role_e287b41a2f332010d826d5f62799b664</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:12</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1950716260</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>4c7151512f003010d826d5f62799b630</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdd10b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_group_dependency.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a687b41a9133201013eb822f8d325166</update_guid>
+<update_guid_history>a687b41a9133201013eb822f8d325166:-1950716260</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_c8b9385a2f332010d826d5f62799b6b7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_group_dependency">u_group_dependency</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>GRPD</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:14:36</sys_created_on><sys_id>c8b9385a2f332010d826d5f62799b6b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GRPD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_number_c8b9385a2f332010d826d5f62799b6b7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:14:36</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>1028807300</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>807151512f003010d826d5f62799b62f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c66df00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table/>
+<target_name>GRPD</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>54b9f09add332010e1b0af521db3cae3</update_guid>
+<update_guid_history>54b9f09add332010e1b0af521db3cae3:1028807300</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_form_sections_0b59bc5a2f332010d826d5f62799b65e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="0b59bc5a2f332010d826d5f62799b65e" sys_domain="global" table="u_group_dependency" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:13:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4b59bc5a2f332010d826d5f62799b661</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="u_group_dependency" name="u_group_dependency" sys_domain="global" view="Default view">0b59bc5a2f332010d826d5f62799b65e</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="u_group_dependency" sys_domain="global" view="Default view">07c8f45a2f332010d826d5f62799b627</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:13:10</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:13:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0b59bc5a2f332010d826d5f62799b6a0</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="u_group_dependency" name="u_group_dependency" sys_domain="global" view="Default view">0b59bc5a2f332010d826d5f62799b65e</sys_ui_form><sys_ui_section caption="New Section" display_value="New Section" name="u_group_dependency" sys_domain="global" view="Default view">4759bc5a2f332010d826d5f62799b65d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:13:10</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>u_group_dependency</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:13:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0b59bc5a2f332010d826d5f62799b65e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_form_sections_0b59bc5a2f332010d826d5f62799b65e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:13:10</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+<payload_hash>-2010756307</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>807151512f003010d826d5f62799b632</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c519f60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency</target_name>
+<type>Form Sections</type>
+<update_domain>global</update_domain>
+<update_guid>0759bc5a6133201052d2bc0f03b8dfa2</update_guid>
+<update_guid_history>0759bc5a6133201052d2bc0f03b8dfa2:-2010756307,c759bc5a8d3320105a0e02949c523160:-1055718391</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_group_dependency_u_group_dependency_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_group_dependency" label="Group Dependency" language="en" table="u_group_dependency"><sys_documentation action="INSERT_OR_UPDATE"><element>u_group_dependency</element><help/><hint/><label>Group Dependency</label><language>en</language><name>u_group_dependency</name><plural>Group Dependencies</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:08:54</sys_created_on><sys_id>7868b05a2f332010d826d5f62799b6a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Group Dependency</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_group_dependency_u_group_dependency_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:08:54</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1368401214</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>847151512f003010d826d5f62799b62e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c134d10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency.Group Dependency</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b068b05af53320108225ae6e5a0befba</update_guid>
+<update_guid_history>b068b05af53320108225ae6e5a0befba:1368401214</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_6823ceaa2f732010d826d5f62799b6fc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.canWrite() &amp;amp;&amp;amp; !current.isNewRecord()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Update Resuts&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[action.setRedirectURL(current);
+//Update result even when no field is updated.
+var groupSysId = current.u_group;
+var groupName = current.getDisplayValue('u_group');
+
+var gDUtil = new GroupDependencyUtilGlobal();
+var groupDependency = gDUtil.getGroupDependency(groupName, groupSysId);
+
+current.u_group_dependency = groupDependency;
+current.update();]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-01 17:13:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6823ceaa2f732010d826d5f62799b6fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Resuts&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_6823ceaa2f732010d826d5f62799b6fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-01 18:18:14&lt;/sys_updated_on&gt;&lt;table&gt;u_group_dependency&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1230717119</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>847151512f003010d826d5f62799b631</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1792927072b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Update Resuts</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>b9d1d6e635b32010922a671e8975659e</update_guid>
+<update_guid_history>b9d1d6e635b32010922a671e8975659e:1230717119,9d1152e67db320109e5b24f57a12f55a:493162317,e89446aed17320102ba9736398203f6d:836045564,e023ceaafa73201024e8e5fc182acffe:823389002</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_group_dependency_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_group_dependency"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_group_dependency&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-30 17:05:13&lt;/sys_created_on&gt;&lt;sys_id&gt;a287b41a2f332010d826d5f62799b66d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_group_dependency&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_group_dependency_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-30 17:05:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1876746559</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>887151512f003010d826d5f62799b62d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdd4e90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3e87b41abb33201046dc5a37eeeb83aa</update_guid>
+<update_guid_history>3e87b41abb33201046dc5a37eeeb83aa:1876746559</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e287b41a2f332010d826d5f62799b65e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:12</sys_created_on><sys_id>e287b41a2f332010d826d5f62799b65e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_group_dependency">2687b41a2f332010d826d5f62799b65b</sys_security_acl><sys_update_name>sys_security_acl_role_e287b41a2f332010d826d5f62799b65e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:12</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1499137106</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>887151512f003010d826d5f62799b630</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdd0a60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_group_dependency.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a687b41a3d332010e6f43f3fb150d460</update_guid>
+<update_guid_history>a687b41a3d332010e6f43f3fb150d460:-1499137106</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_4759bc5a2f332010d826d5f62799b65d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Result" section_id="4759bc5a2f332010d826d5f62799b65d" sys_domain="global" table="u_group_dependency" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_group_dependency</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:15:58</sys_created_on><sys_id>400af49a2f332010d826d5f62799b6df</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Result" display_value="Result" name="u_group_dependency" sys_domain="global" view="Default view">4759bc5a2f332010d826d5f62799b65d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:15:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Result</caption><header>false</header><name>u_group_dependency</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:13:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4759bc5a2f332010d826d5f62799b65d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_group_dependency</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_4759bc5a2f332010d826d5f62799b65d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:15:58</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>2048245466</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>8871d5512f003010d826d5f62799b620</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c7aa790000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>800af49ade332010d599d19c645e6fe0</update_guid>
+<update_guid_history>800af49ade332010d599d19c645e6fe0:2048245466,440af49a06332010f3e498dd2095abb4:2048245466,0b59bc5a363320104f22855b98613aac:492619770</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2687b41a2f332010d826d5f62799b661</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_group_dependency</description><name>u_group_dependency</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:12</sys_created_on><sys_id>2687b41a2f332010d826d5f62799b661</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_2687b41a2f332010d826d5f62799b661</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1347756169</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>8c7151512f003010d826d5f62799b62f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdd0dd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_group_dependency</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6687b41a9a3320107059e39b8b436563</update_guid>
+<update_guid_history>6687b41a9a3320107059e39b8b436563:-1347756169</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_group_dependency_u_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_number" table="u_group_dependency"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;ignore_filter_on_new=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:global.getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_group_dependency&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-30 17:14:36&lt;/sys_created_on&gt;&lt;sys_id&gt;5cb9385a2f332010d826d5f62799b6be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_group_dependency_u_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-30 17:14:36&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>872094869</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>c07151512f003010d826d5f62799b62e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c66da10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>58b9f09ad83320100278e172b3094ee0</update_guid>
+<update_guid_history>58b9f09ad83320100278e172b3094ee0:872094869</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_1e7dbd2a2f732010d826d5f62799b6c7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;sysverb_insert&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;false&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Submit&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script/&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-01 16:49:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1e7dbd2a2f732010d826d5f62799b6c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Submit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_1e7dbd2a2f732010d826d5f62799b6c7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-01 16:49:53&lt;/sys_updated_on&gt;&lt;table&gt;u_group_dependency&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-868816342</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>c07151512f003010d826d5f62799b631</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17928d6260c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Submit</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>379dbd2a82732010247c60a18f46b423</update_guid>
+<update_guid_history>379dbd2a82732010247c60a18f46b423:-868816342</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_3317701a2f332010d826d5f62799b62c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Group Dependency</label><live_feed_enabled>false</live_feed_enabled><name>u_group_dependency</name><number_ref display_value="GRPD">c8b9385a2f332010d826d5f62799b6b7</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:11</sys_created_on><sys_id>3317701a2f332010d826d5f62799b62c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Group Dependency</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_3317701a2f332010d826d5f62799b62c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:14:36</sys_updated_on><update_access>false</update_access><user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1787411751</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>c47151512f003010d826d5f62799b62d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c66c150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>5cb9385ac63320103f4ed5f345aeffbd</update_guid>
+<update_guid_history>5cb9385ac63320103f4ed5f345aeffbd:-1787411751,f687b41a47332010a8d51458d36262ad:-1106397779</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_2a87b41a2f332010d826d5f62799b657</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:12</sys_created_on><sys_id>2a87b41a2f332010d826d5f62799b657</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_group_dependency">da87b41a2f332010d826d5f62799b653</sys_security_acl><sys_update_name>sys_security_acl_role_2a87b41a2f332010d826d5f62799b657</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:12</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-724913928</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>c47151512f003010d826d5f62799b630</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdd03a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_group_dependency.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>6687b41a2833201092c0e1a3ed453b5a</update_guid>
+<update_guid_history>6687b41a2833201092c0e1a3ed453b5a:-724913928</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_07c8f45a2f332010d826d5f62799b627</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="07c8f45a2f332010d826d5f62799b627" sys_domain="global" table="u_group_dependency" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_group</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:13:10</sys_created_on><sys_id>4f59bc5a2f332010d826d5f62799b6a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_group_dependency" sys_domain="global" view="Default view">07c8f45a2f332010d826d5f62799b627</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:13:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:13:10</sys_created_on><sys_id>cf59bc5a2f332010d826d5f62799b6a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_group_dependency" sys_domain="global" view="Default view">07c8f45a2f332010d826d5f62799b627</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:13:10</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_number</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:14:37</sys_created_on><sys_id>94b9f09a2f332010d826d5f62799b6d7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_group_dependency" sys_domain="global" view="Default view">07c8f45a2f332010d826d5f62799b627</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:14:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_group_dependency</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:10:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>07c8f45a2f332010d826d5f62799b627</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_07c8f45a2f332010d826d5f62799b627</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:10:43</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>2136744452</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>c471d5512f003010d826d5f62799b620</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923c66cdb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>d8b9f09aea3320100cf2614a7f79edd8</update_guid>
+<update_guid_history>d8b9f09aea3320100cf2614a7f79edd8:2136744452,c359bc5a8b3320105c8485f909c2e6a8:362195770,1bc8f45a67332010592c7358d924162f:-1090533429,0bc8f45a4d332010a6be311bea20012a:-510709812</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2687b41a2f332010d826d5f62799b65b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_group_dependency</description><name>u_group_dependency</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:12</sys_created_on><sys_id>2687b41a2f332010d826d5f62799b65b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_group_dependency</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_2687b41a2f332010d826d5f62799b65b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-348616525</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>c87151512f003010d826d5f62799b62f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdd0730000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_group_dependency</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6687b41a2e332010a2a57e504f7cba5d</update_guid>
+<update_guid_history>6687b41a2e332010a2a57e504f7cba5d:-348616525</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_d23cbde62f732010d826d5f62799b66e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>u_number</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-01 16:44:00</sys_created_on><sys_id>d23cbde62f732010d826d5f62799b66e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_d23cbde62f732010d826d5f62799b66e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-01 16:44:00</sys_updated_on><table>u_group_dependency</table><ui_policy display_value="Make fields read-only">64fbf9e62f732010d826d5f62799b612</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+<payload_hash>-558703503</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>c87151512f003010d826d5f62799b632</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17928d0c33a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>u_number</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>e54c7de6f57320101f19b38a9f6f448e</update_guid>
+<update_guid_history>e54c7de6f57320101f19b38a9f6f448e:-558703503</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_group_dependency__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Group Dependency" language="en" table="u_group_dependency"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Group Dependency</label><language>en</language><name>u_group_dependency</name><plural>Group Dependencies</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:13</sys_created_on><sys_id>ee87b41a2f332010d826d5f62799b68e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Group Dependency</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_group_dependency__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:13</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-276826464</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>cc7151512f003010d826d5f62799b62e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdd5140000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table>u_group_dependency</table>
+<target_name>Group Dependency</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b287b41aad3320109af5f58b18b0beac</update_guid>
+<update_guid_history>b287b41aad3320109af5f58b18b0beac:-276826464</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_de87b41a2f332010d826d5f62799b64c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Group Dependency</name><order/><roles>itil</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-30 17:05:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>de87b41a2f332010d826d5f62799b64c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Group Dependency</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_de87b41a2f332010d826d5f62799b64c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-30 17:05:12</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-1137636781</payload_hash>
+<remote_update_set display_value="Group Dependency Check_v1">047151512f003010d826d5f62799b62c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-10 02:40:08</sys_created_on>
+<sys_id>cc7151512f003010d826d5f62799b631</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17923bdce490000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-10 02:40:08</sys_updated_on>
+<table/>
+<target_name>Group Dependency</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>5287b41a2633201076db826f40ac634f</update_guid>
+<update_guid_history>5287b41a2633201076db826f40ac634f:-1137636781</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
